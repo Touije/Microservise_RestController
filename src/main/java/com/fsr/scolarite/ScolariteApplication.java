@@ -18,7 +18,7 @@ public class ScolariteApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		etudiantRepository.save(new Etudiant(null,"wydad","emarat","wydad@fsr.ac.ma"));
+		etudiantRepository.save(new Etudiant(null,"maroc","emarat","wydad@fsr.ac.ma"));
 		etudiantRepository.save(new Etudiant(null,"oussama","touijer","oussama@fsr.ac.ma"));
 		etudiantRepository.save(new Etudiant(null,"naima","mct","naima@fsr.ac.ma"));
 		etudiantRepository.save(new Etudiant(null,"soufian","moussa","soufian@fsr.ac.ma"));
